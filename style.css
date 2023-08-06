@@ -1,5 +1,18 @@
-body {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+input,
+button,
+select,
+textarea {
   font-family: "Poppins", sans-serif;
+}
+
+body {
   background: #e5e5e5;
 }
 
@@ -19,12 +32,13 @@ header h1 {
   font-size: 36px;
   line-height: 42px;
   color: white;
+  margin-bottom: 24px;
 }
 
 header p {
-  color: #42d3ff;
   font-size: 16px;
   line-height: 26px;
+  color: #42d3ff;
 }
 
 body::before {
@@ -40,23 +54,68 @@ body::before {
 
 form {
   margin-top: 38px;
-  background: #fafafc;
   min-height: 300px;
   border-radius: 8px;
   padding: 64px;
+  background: #fafafc;
 }
 
 fieldset {
   border: none;
 }
 
+.fieldset-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
 fieldset legend {
-  color: #32264d;
-  font-family: 'Archivo', sans-serif;
+  font-family: "Archivo", sans-serif;
   font-size: 24px;
   font-weight: 600;
   line-height: 34px;
   width: 100%;
-  border-bottom: 1px solid #E6E6F0;
+  border-bottom: 1px solid #e6e6f0;
   padding-bottom: 16px;
+  color: #32264d;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-wrapper label {
+  font-size: 14px;
+  line-height: 24px;
+  color: #4e4958;
+  margin-bottom: 8px;
+}
+
+.input-wrapper label span {
+  margin-left: 12px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #a1a0a5;
+}
+
+.input-wrapper label span:hover {
+  color: #525157;
+}
+
+.input-wrapper input,
+.input-wrapper textarea {
+  background: #fafafc;
+  border: 1px solid #e6e6f0;
+  border-radius: 8px;
+  height: 56px;
+  padding: 0 24px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #6c6a71;
+}
+.input-wrapper textarea {
+  padding: 0;
+  height: 168px;
 }
