@@ -58,6 +58,9 @@ form {
   border-radius: 8px;
   padding: 64px;
   background: #fafafc;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
 }
 
 fieldset {
@@ -89,7 +92,7 @@ fieldset legend {
 .input-wrapper label {
   font-size: 14px;
   line-height: 24px;
-  color: #4e4958;
+  color: 4e4958;
   margin-bottom: 8px;
 }
 
@@ -126,4 +129,3 @@ fieldset legend {
   -webkit-appearance: none;
   background: url(./assets/arrow.svg) no-repeat top 50% right 24px;
 }
-
