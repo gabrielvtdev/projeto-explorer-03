@@ -105,7 +105,8 @@ fieldset legend {
 }
 
 .input-wrapper input,
-.input-wrapper textarea {
+.input-wrapper textarea,
+.input-wrapper select {
   background: #fafafc;
   border: 1px solid #e6e6f0;
   border-radius: 8px;
@@ -119,3 +120,10 @@ fieldset legend {
   padding: 0;
   height: 168px;
 }
+
+.input-wrapper select {
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url(./assets/arrow.svg);
+}
+
