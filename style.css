@@ -129,3 +129,9 @@ fieldset legend {
   -webkit-appearance: none;
   background: url(./assets/arrow.svg) no-repeat top 50% right 24px;
 }
+
+#col-3 {
+  display: flex !important;
+  gap: 20px;
+}
+
