@@ -130,8 +130,34 @@ fieldset legend {
   background: url(./assets/arrow.svg) no-repeat top 50% right 24px;
 }
 
-#col-3 {
+.col-3 {
   display: flex !important;
   gap: 20px;
 }
 
+.col-3 > div:nth-child(1) {
+  width: 100%;
+}
+
+.checkbox-wrapper input{
+  display: none;
+}
+
+.checkbox-wrapper label{
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-wrapper label {
+  font-size: 14px;
+  line-height: 24px;
+  color: 4e4958;
+}
+.checkbox-wrapper label::before {
+  content: '';
+  display: block;
+  width: 24px;
+  height: 24px;
+  border: 1px solid #e6e6f0;
+  border-radius: 8px;
+}
