@@ -124,6 +124,6 @@ fieldset legend {
 .input-wrapper select {
   appearance: none;
   -webkit-appearance: none;
-  background-image: url(./assets/arrow.svg);
+  background: url(./assets/arrow.svg) no-repeat top 50% right 24px;
 }
 
