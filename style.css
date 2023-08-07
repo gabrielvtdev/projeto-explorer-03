@@ -204,6 +204,10 @@ footer .input {
   cursor: pointer;
 }
 
-footer input:hover{
+footer input:hover {
   background: #03853d;
+}
+
+input:invalid {
+  border: 1px solid red;
 }
